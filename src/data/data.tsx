@@ -1,25 +1,14 @@
-import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  MapIcon,
-} from '@heroicons/react/24/outline';
+import {AcademicCapIcon, BuildingOffice2Icon, CalendarIcon, MapIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import caroImage from '../images/portfolio/caro.webp';
+import myDojoImage from '../images/portfolio/mydojo.webp';
+import partsTrackerImage from '../images/portfolio/parts-tracker.webp';
+import portlandOregonTrailImage from '../images/portfolio/portland-oregon-trail.webp';
+import raccoopackImage from '../images/portfolio/raccoopack.webp';
+import todoItImage from '../images/portfolio/todoit.webp';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -185,70 +174,43 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
+    title: 'Just Todo It',
+    description: 'A mobile app to combat planning fallacy. ',
+    url: 'https://github.com/maxahn/just-todo-it',
+    image: todoItImage,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
+    title: 'Customer and Staff Portal for Order Management',
+    description:
+      'A web app to manage complicated form submission and integrate it with the existing client database and unique infrastructure.',
+    url: 'https://raccoopack.media/client-and-staff-portal-for-order-management',
+    image: caroImage,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
+    title: 'My Dojo',
+    description:
+      'An app that instructors use to schedule classes, take attendance, track belt progress.\n A companion parent app allows them to assign Challenges (tasks) to kids for digital bonuses for the companion game.',
+    url: 'https://raccoopack.media/our-works/my-dojo-world',
+    image: myDojoImage,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
+    title: 'Raccoopack Media Website',
+    description: 'Raccoopack Media site built with Nextjs and Strapi, a headless CMS.',
+    url: 'https://raccoopack.media/',
+    image: raccoopackImage,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
+    title: 'Parts Tracker',
+    description:
+      'Tracks the movement of parts through a manufactoring factory. Employees can scan a location QR code and add the the codes for the parts they are dropping off.',
+    url: 'https://raccoopack.media/our-works/speeding-up-production-using-a-web-app',
+    image: partsTrackerImage,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'Portland Oregon Trail game',
+    description: 'Oregon Trail parody game for ComedyHacks Vancouver 2016. Javascript, HTML, CSS',
+    url: 'https://pot.robertdall.com/',
+    image: portlandOregonTrailImage,
   },
 ];
 
